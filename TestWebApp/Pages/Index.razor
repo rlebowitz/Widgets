@@ -1,0 +1,31 @@
+﻿@page "/"
+
+<h1>Blazor Toastr</h1>
+
+<table>
+    <tr>
+        <td>
+            <button class="btn btn-info" @onclick="OnAddError">Add an Error</button>
+        </td>
+        <td>
+            <button class="btn btn-info" @onclick="OnAddWarning">Add a Warning</button>
+        </td>
+        <td>
+            <button class="btn btn-info" @onclick="OnAddInfo">Add Info</button>
+        </td>
+        <td>
+            <button class="btn btn-info" @onclick="OnAddSuccess">Add Success</button>
+        </td>
+        <td>
+            <button class="btn btn-info" @onclick="OnCustomToast">Add Custom Toast</button>
+        </td>
+    </tr>
+</table>
+
+
+<br />
+<br />
+<button class="btn btn-info" @onclick="OnClear">Clear All</button>
+<br />
+
+

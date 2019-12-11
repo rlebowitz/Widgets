@@ -1,0 +1,10 @@
+﻿    <div id="@ContainerId" class="@PositionClass">
+        @foreach (var option in Options)
+        {
+            <Toast @key="++key" Options="option" OnRemove="@(e => RemoveToast(option))"></Toast>
+        }
+    </div>
+
+@code {
+    private int key;
+}

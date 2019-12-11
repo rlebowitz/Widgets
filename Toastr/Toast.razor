@@ -1,0 +1,12 @@
+﻿<div class="@ToastClass  @Icon  @RTL  @Display" aria-live="@Options.Aria" @onclick="@(e => OnTapClose())">
+    @if (Options.CloseButton)
+    {
+        <button type="button" role="button" class="@Options.CloseButtonClass" @onclick="@(e => OnClose())" @onclick:stopPropagation="true">&times;</button>
+    }
+    @if (!string.IsNullOrWhiteSpace(Options.Title)) { 
+        <div class="@Options.TitleClass">@Options.Title</div>
+    }
+    <div class="@Options.MessageClass">@Options.Message</div>
+</div>
+
+

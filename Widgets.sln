@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29521.150
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestWebApp", "TestWebApp\TestWebApp.csproj", "{7FEAC98B-6105-4F90-820F-85C3E1156686}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Toastr", "Toastr\Toastr.csproj", "{ACD76AB3-4378-4D4A-9E2D-F0BFEAB32B76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7FEAC98B-6105-4F90-820F-85C3E1156686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7FEAC98B-6105-4F90-820F-85C3E1156686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7FEAC98B-6105-4F90-820F-85C3E1156686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7FEAC98B-6105-4F90-820F-85C3E1156686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ACD76AB3-4378-4D4A-9E2D-F0BFEAB32B76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ACD76AB3-4378-4D4A-9E2D-F0BFEAB32B76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ACD76AB3-4378-4D4A-9E2D-F0BFEAB32B76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ACD76AB3-4378-4D4A-9E2D-F0BFEAB32B76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E563F28C-E586-4075-861B-69876F1B9AE4}
+	EndGlobalSection
+EndGlobal
